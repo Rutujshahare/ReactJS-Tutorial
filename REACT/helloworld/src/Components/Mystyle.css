@@ -1,0 +1,15 @@
+.Heading
+{
+  color:orange;
+  font-size: 23px;
+ 
+}
+
+.button[button]
+{
+    color:red;
+    font-size:30px;
+    box-shadow: aqua;
+    border:2px solid black;
+    border-radius:20px;
+}

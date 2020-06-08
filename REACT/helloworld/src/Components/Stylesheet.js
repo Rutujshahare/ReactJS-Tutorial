@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import './Mystyle.css';
+import UserGreeting from './UserGreeting';
+
+
 
  class Stylesheet extends Component {
      constructor(props)
@@ -21,14 +25,22 @@ import React, { Component } from 'react'
      
     render() {
         return (
-            <div className='Heading'>
+            <div className={'Heading'} primary >
                <h2>{this.state.message}</h2> 
         <div className="button" onClick={this.click.bind(this)}><button>Get Started</button></div>
+        <div><h3 style={heading}>gorakshan app patanbori </h3></div>
             </div>
+       
             
         )
     }
 }
+const heading=
+{
+    color:'green',
+    border:'2px'
+}
+
 
 export default Stylesheet
 
