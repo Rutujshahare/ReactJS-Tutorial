@@ -8,11 +8,12 @@ import PureComp from './Components/PureComp';
 import ParentComp from './Components/ParentComp';
 import RefsDemo from './Components/RefsDemo';
 import FormInput from './Components/FormInput';
+import TextField from './Components/TextField';
 
 function App() {
   return (
     <div className="App">
-     <FormInput/>
+     <TextField/>
     </div>
   );
 }
