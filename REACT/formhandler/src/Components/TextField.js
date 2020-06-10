@@ -6,8 +6,7 @@ class TextField extends React.Component {
         super(props)
         this.ComponentRef=React.createRef()
     }
-    clickhandler=()=>
-    {
+    clickhandler=()=> {
       this.ComponentRef.current. FocusInput()
     }
     render() {
