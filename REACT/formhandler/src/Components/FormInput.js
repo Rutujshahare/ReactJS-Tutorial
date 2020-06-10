@@ -1,21 +1,17 @@
 import React from 'react';
 import Input from './Input';
 
-class FormInput extends React.Component
-{
-    constructor()
-    {
-        super()
-        {
-            this.componentRef=React.createRef()
-        }
+class FormInput extends React.Component{
+    constructor(){
+        super(propd);
+        
+        this.componentRef=React.createRef()
+        
     }
-    clickhandler=()=>
-    {
+    clickhandler=()=>{
         this.componentRef.current.focus()
     }
-    render()
-    {
+    render(){
         return (
             <div>
              <Input  ref={this.componentRef}/>
