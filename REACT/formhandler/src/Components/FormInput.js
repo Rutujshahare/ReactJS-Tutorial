@@ -5,7 +5,9 @@ export default class FormInput extends React.Component{
     constructor(){
         super(propd);
         
-        this.componentRef=React.createRef()
+        this.componentRef=React.createRef();
+
+        this.clickhandler = this.clickhandler.bind(this);
         
     }
     clickhandler(){
@@ -18,7 +20,7 @@ export default class FormInput extends React.Component{
         return (
             <div>
              <Input  ref={this.componentRef}/>
-             <button onClick={()=>this.clickhandler} >FormInput</button>
+             <button onClick={this.clickhandler} >FormInput</button>
             </div>
         )
     }
