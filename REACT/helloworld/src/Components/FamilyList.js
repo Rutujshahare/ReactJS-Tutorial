@@ -25,7 +25,9 @@ function FamilyList() {
         }
        
     ]
-   const familylist= Name.map((name,index)=><h2 key={index} > {index} your name is {name.Name} and your family is {name.Family}</h2>)
+   const familylist= Name.map((name,index)=>
+         <h2 key={index} > {index} your name is {name.Name} and your family is {name.Family}</h2>
+    )
     return (
         <div>
             {familylist}
