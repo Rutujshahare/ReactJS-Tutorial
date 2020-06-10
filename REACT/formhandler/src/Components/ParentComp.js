@@ -1,5 +1,5 @@
 import React from 'react';
-import RegularComp from './RegularComp';
+
 import PureComp from './PureComp';
 
 class ParentComp extends React.Component
@@ -29,7 +29,7 @@ componentDidMount()
         return (
             <div>
                 <h2>this is a parent components</h2>
-                <RegularComp name={this.state.name}></RegularComp>
+                
                 <PureComp name={this.state.name}></PureComp>
 
             </div>
