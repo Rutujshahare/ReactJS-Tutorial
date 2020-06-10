@@ -9,11 +9,13 @@ import ParentComp from './Components/ParentComp';
 import RefsDemo from './Components/RefsDemo';
 import FormInput from './Components/FormInput';
 import TextField from './Components/TextField';
+import ForwardParentRef from './Components/ForwardParentRef';
+
 
 function App() {
   return (
     <div className="App">
-     <TextField/>
+     <ForwardParentRef/>
     </div>
   );
 }
