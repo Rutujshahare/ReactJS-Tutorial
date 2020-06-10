@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from './Input';
 
-class FormInput extends React.Component{
+export default class FormInput extends React.Component{
     constructor(){
         super(propd);
         
@@ -20,4 +20,4 @@ class FormInput extends React.Component{
         )
     }
 }
-export default FormInput
+// export default FormInput
